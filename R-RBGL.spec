@@ -2,13 +2,13 @@
 
 Summary:	An interface to the BOOST graph library
 Name:		R-%{packname}
-Version:	1.38.0
-Release:	2
+Version:	1.86.0
+Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	f7d8dc8c3bede64e8d41d25b951f304e
-URL:		http://bioconductor.org/packages/release/bioc/html/RBGL.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	b9fdd333b124e0e5cd6c344269e1c6a1
+URL:		https://bioconductor.org/packages/release/bioc/html/RBGL.html
 BuildRequires:	R
 BuildRequires:	R-graph
 BuildRequires:	texlive-latex
